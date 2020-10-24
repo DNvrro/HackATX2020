@@ -18,4 +18,10 @@ html{
   justify-content: center;
   align-items: center;
   padding-top: 2.5vw;
+
+}
+
+.search-container .search-field {
+  background: rgb(35, 63, 147);
+  padding: 1.5vw;
 }
