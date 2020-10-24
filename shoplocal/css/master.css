@@ -25,3 +25,17 @@ html{
   background: rgb(35, 63, 147);
   padding: 1.5vw;
 }
+
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.navigation nav{
+  background-color: rgb(35, 63, 147);
+  height: 4vw;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
