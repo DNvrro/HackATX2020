@@ -29,6 +29,8 @@ html{
   padding: 1.5vw;
 }
 
+ /* navigation */
+
 .navigation {
   position: sticky;
   top: 0;
