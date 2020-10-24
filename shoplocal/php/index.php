@@ -9,6 +9,8 @@
   </head>
   <body>
 
+    <?php require_once '../layouts/nav.php'; ?>
+
     <div class="signup-image">
         <img src="../images/shoplocallogo.png" alt="shop local logo">
     </div>
