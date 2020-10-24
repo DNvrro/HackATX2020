@@ -12,3 +12,10 @@ html{
   width: 50%;
   padding-top: 5vw;
 }
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5vw;
+}

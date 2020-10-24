@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Shop Local</title>
     <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
   </head>
   <body>
@@ -12,6 +13,11 @@
         <img src="../images/shoplocallogo.png" alt="shop local logo">
     </div>
 
-    <h1>Text text</h1>
+    <div class="search-container">
+       <form action="/action_page.php">
+         <input type="text" placeholder="Search..." name="search">
+         <button type="submit"><i class="fa fa-search"></i></button>
+       </form>
+    </div>
   </body>
 </html>
