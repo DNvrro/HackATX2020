@@ -15,7 +15,7 @@
     </div>
 
     <div class="search-container">
-       <form action="./action_page.php">
+       <form action="./action.php">
          <div class="search-field">
            <input type="text" placeholder="Find..." name="find">
            <input type="text" placeholder="Near..." name="near">
