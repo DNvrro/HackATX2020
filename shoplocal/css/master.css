@@ -38,7 +38,7 @@ html{
 }
 
 .navigation nav{
-  background-color: black;
+  background: rgb(35, 63, 147);
   top: 0;
   height: 4vw;
   display: flex;
