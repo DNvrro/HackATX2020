@@ -1,5 +1,6 @@
 html{
   box-sizing: border-box;
+  background-color: rgb(238,232,170)
 }
 *, *::after, *::before{
   box-sizing: inherit;
@@ -13,47 +14,35 @@ html{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding-top: 5vw;
+  padding-top: 0vw;
 }
 
 .search-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 2.5vw;
+  padding-top: 1.5vw;
+  padding-bottom: 2vw;
 
 }
 
 .search-container .search-field {
-  background: rgb(35, 63, 147);
+  background: rgb(255, 86, 86);
   padding: 1.5vw;
 
 }
 
  /* navigation */
 
-.navigation {
-  position: sticky;
-  top: 0;
-  z-index: 30;
-}
 
-.navigation nav{
-  background: rgb(35, 63, 147);
-  top: 0;
-  height: 4vw;
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
-}
 
 #map {
   left: 2%;
   height: 60%;
   width: 48%;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 1vw;
+  bottom: 2%;
+  
 }
 html, body {
   height: 100%;
