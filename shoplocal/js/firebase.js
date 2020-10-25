@@ -13,6 +13,7 @@
     </style>
   </head>
   <body>
+  
     <div id="map"></div>
     <script defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClkGyBgCWivGSoFt4iPkiU9ArZJJRKJAI
@@ -34,7 +35,7 @@
           disableDoubleClickZoom: true,
           streetViewControl: false
         });
-      } 
+      }
     </script>
 
   </body>
